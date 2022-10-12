@@ -12,8 +12,12 @@
             //DailyEmpWages dailyEmpWages = new DailyEmpWages();
             //dailyEmpWages.Wages();
 
-            PartTimeEmp partTimeEmp = new PartTimeEmp();
-            partTimeEmp.Wages();
+            //PartTimeEmp partTimeEmp = new PartTimeEmp();
+            //partTimeEmp.Wages();
+
+            SwitchCase switchCase = new SwitchCase();
+            switchCase.Wages();
+
 
         }
     }
