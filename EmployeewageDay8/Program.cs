@@ -15,8 +15,12 @@
             //PartTimeEmp partTimeEmp = new PartTimeEmp();
             //partTimeEmp.Wages();
 
-            SwitchCase switchCase = new SwitchCase();
-            switchCase.Wages();
+            //SwitchCase switchCase = new SwitchCase();
+            //switchCase.Wages();
+
+            MonthlyWages monthlyWages = new MonthlyWages();
+            monthlyWages.wages();
+
 
 
         }
