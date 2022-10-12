@@ -9,8 +9,12 @@
             //Attendance attendance = new Attendance();
             //attendance.attend();
 
-            DailyEmpWages dailyEmpWages = new DailyEmpWages();
-            dailyEmpWages.Wages();
+            //DailyEmpWages dailyEmpWages = new DailyEmpWages();
+            //dailyEmpWages.Wages();
+
+            PartTimeEmp partTimeEmp = new PartTimeEmp();
+            partTimeEmp.Wages();
+
         }
     }
 }
