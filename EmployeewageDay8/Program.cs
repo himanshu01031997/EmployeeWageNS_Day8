@@ -32,9 +32,9 @@
             TotalWages total = new TotalWages("Dmart", 20, 15, 23);
             total.ComputeEmpWage();
             Console.WriteLine(total.toString());  
-            //TotalWages total1 = new TotalWages("jio", 21, 25, 13);
-            //total1.ComputeEmpWage();
-            //Console.WriteLine(total1.ToString());
+            TotalWages total1 = new TotalWages("jio", 21, 25, 13);
+            total1.ComputeEmpWage();
+            Console.WriteLine(total1.ToString());
 
 
 
