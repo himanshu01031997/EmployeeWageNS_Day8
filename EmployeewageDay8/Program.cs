@@ -18,9 +18,11 @@
             //SwitchCase switchCase = new SwitchCase();
             //switchCase.Wages();
 
-            MonthlyWages monthlyWages = new MonthlyWages();
-            monthlyWages.wages();
+            //MonthlyWages monthlyWages = new MonthlyWages();
+            //monthlyWages.wages();
 
+            MaximumHr maximumHr = new MaximumHr();
+            maximumHr.monthlywages();
 
 
         }
