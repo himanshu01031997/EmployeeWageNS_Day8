@@ -29,14 +29,11 @@
             //MultipleCompany company2 = new MultipleCompany();
             //company2.wages("jio", 23, 13, 50);
 
-            TotalWages total = new TotalWages("Dmart", 20, 15, 23);
-            total.ComputeEmpWage();
-            Console.WriteLine(total.toString());  
-            //TotalWages total1 = new TotalWages("jio", 21, 25, 13);
-            //total1.ComputeEmpWage();
-            //Console.WriteLine(total1.ToString());
-
-
+            EmployeeWageBuildArray employeeWageBuildArray = new EmployeeWageBuildArray();
+            employeeWageBuildArray.AddCompany("dmart", 20, 2, 10);
+            employeeWageBuildArray.AddCompany("reliance", 10, 4, 20);
+            employeeWageBuildArray.AddCompany("jio", 20, 2, 10);
+            employeeWageBuildArray.ComputeEmpWage();
 
 
         }
