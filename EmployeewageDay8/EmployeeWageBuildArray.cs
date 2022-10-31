@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EmployeewageDay8
 {
-    public  class EmployeeWageBuildArray
+    public  class EmployeeWageBuildArray: IcomputeEmpwage
     {
         public const int ISPARTTIME = 1;
         public const int ISFULLTIME = 2;
@@ -23,7 +23,7 @@ namespace EmployeewageDay8
             companyEmpwageArray[this.NoOFCompany] = new CompanyEmpWage(company, EmpRateprhr, NumWorkingDay, MaxHrPrMonth);
             NoOFCompany++;
         }
-        public void ComputeEmpWage()
+        public void computeEmpWage()
         {
             for(int i = 0; i < NoOFCompany; i++)
             {
@@ -58,6 +58,10 @@ namespace EmployeewageDay8
             }
             return totalempHR * companyempwage.EmpRateprhr;
 
+        }
+        public int getTotalEmpWage(int value)
+        {
+            return this.companyEmpwageArray[value].totalEmpWage;
         }
     }
 }

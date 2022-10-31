@@ -33,7 +33,8 @@
             employeeWageBuildArray.AddCompany("dmart", 20, 2, 10);
             employeeWageBuildArray.AddCompany("reliance", 10, 4, 20);
             employeeWageBuildArray.AddCompany("jio", 20, 2, 10);
-            employeeWageBuildArray.ComputeEmpWage();
+            employeeWageBuildArray.computeEmpWage();
+            Console.WriteLine("total wage for Dmart company:"+employeeWageBuildArray.getTotalEmpWage(0));
 
 
         }
